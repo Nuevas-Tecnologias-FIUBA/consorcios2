@@ -5,6 +5,7 @@ class Usuario {
     String nombre
     String apellido
     String email
+    String password
     Set<Voto> votos = []
 
     static hasMany = [
@@ -15,6 +16,7 @@ class Usuario {
         nombre blank: false, nullable: false
         apellido blank: false, nullable: false
         email blank: false, nullable: false, email: true
+        password blank: true, nullable: true
     }
 
     Voto votar(Acta acta) {

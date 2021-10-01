@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="layout" content="main"/>
         <style>
             body {
                 background-color: #1c8385;
